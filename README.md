@@ -32,3 +32,8 @@ lerna create pkg1
 ```
 yarn
 ```
+
+## 依赖
+```
+yarn add -W -D webpack
+```
