@@ -21,7 +21,8 @@
     "url": "git+https://github.com/MengFangui/lerna-template.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "dev": "webpack --colors --config webpack.dev.js",
+    "build": "webpack --colors --config webpack.prod.js"
   },
   "bugs": {
     "url": "https://github.com/MengFangui/lerna-template/issues"
