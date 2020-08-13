@@ -44,7 +44,7 @@ let baseConfig = {
   resolve: {
     extensions: ['.tsx', '.ts', '.js', '.jsx']
   },
-  watch: true
+  watch: false
 }
 module.exports = baseConfig
 

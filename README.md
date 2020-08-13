@@ -35,5 +35,5 @@ yarn
 
 ## 依赖
 ```
-yarn add -W -D webpack //这是安装到根目录，各个pkg都可以使用，-W 表示workspace。
+yarn add -W -D webpack //这是安装到根目录，各个pkg都可以使用，-W 表示workspace。 使用-D（开发依赖），不要使用--save-dev
 ```

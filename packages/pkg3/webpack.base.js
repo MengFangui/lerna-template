@@ -3,7 +3,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin');
 let baseConfig = {
   entry: {
-    pkg1: './lib/pkg1.js'
+    pkg3: './lib/pkg3.ts'
   },
   output: {
     filename: '[name].js',
@@ -16,7 +16,7 @@ let baseConfig = {
   module: {
     rules: [
       {
-        test: /\.jsx?$/,
+        test: /\.tsx?$/,
         include: [
           path.resolve(__dirname, "lib")
         ],
@@ -35,7 +35,7 @@ let baseConfig = {
         // 查看 webpack 1 升级指南。
 
         options: {
-          presets: ['@babel/preset-env']
+          presets: ['@babel/preset-env', '@babel/preset-typescript']
         },
         // loader 的可选项
       },

@@ -8,6 +8,7 @@ dist
 # Log files
 *.log*
 *.lock
+yarn.lock
 package-lock.json
 yarn-lock.json
 
