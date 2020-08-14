@@ -1,4 +1,6 @@
 function greeter(person:string) {
     return "Hello, " + person;
 }
-export default greeter
+greeter('hi')
+let age = 10
+export default age

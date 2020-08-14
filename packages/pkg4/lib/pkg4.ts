@@ -1,2 +1,2 @@
-import greeter from '@test/pkg3'
-console.log(greeter('word!'),'66666')
+import age from '@test/pkg3'
+console.log(age,'66666')
