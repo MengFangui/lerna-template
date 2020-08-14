@@ -34,9 +34,9 @@ let baseConfig = {
         // 为了更清晰，`-loader` 后缀在 webpack 2 中不再是可选的
         // 查看 webpack 1 升级指南。
 
-        options: {
-          presets: ['@babel/preset-env', '@babel/preset-typescript']
-        },
+        // options: {
+        //   presets: ['@babel/preset-env', '@babel/preset-typescript']
+        // },
         // loader 的可选项
       },
     ]
