@@ -17,9 +17,9 @@ let baseConfig = {
     rules: [
       {
         test: /\.tsx?$/,
-        include: [
-          path.resolve(__dirname, "lib")
-        ],
+        // include: [
+        //   path.resolve(__dirname, "lib")
+        // ],
         exclude: /node_modules/,
         // 这里是匹配条件，每个选项都接收一个正则表达式或字符串
         // test 和 include 具有相同的作用，都是必须匹配选项
