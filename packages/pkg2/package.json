@@ -1,6 +1,6 @@
 {
   "name": "@test/pkg2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "pkg2",
   "keywords": [
     "pkg2"
@@ -29,6 +29,6 @@
     "url": "https://github.com/MengFangui/lerna-template/issues"
   },
   "dependencies": {
-    "@test/pkg1": "1.0.0"
+    "@test/pkg1": "^1.0.1"
   }
 }
