@@ -30,5 +30,6 @@
   },
   "dependencies": {
     "@test/pkg1": "^1.0.1"
-  }
+  },
+  "gitHead": "e7e9a941e4f17514d6b378f6e200b01fd01b50b1"
 }
