@@ -27,5 +27,8 @@
   },
   "bugs": {
     "url": "https://github.com/MengFangui/lerna-template/issues"
+  },
+  "dependencies": {
+    "@test/pkg1": "1.0.0"
   }
 }
