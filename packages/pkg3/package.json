@@ -24,11 +24,16 @@
     "url": "git+https://github.com/MengFangui/lerna-template.git"
   },
   "scripts": {
+    "start": "node ./dist/pkg3.js",
     "dev": "webpack --colors --config webpack.dev.js",
     "build": "webpack --colors --config webpack.prod.js"
   },
   "bugs": {
     "url": "https://github.com/MengFangui/lerna-template/issues"
   },
-  "gitHead": "e7e9a941e4f17514d6b378f6e200b01fd01b50b1"
+  "gitHead": "e7e9a941e4f17514d6b378f6e200b01fd01b50b1",
+  "dependencies": {
+    "dayjs": "^1.8.33",
+    "lodash": "^4.17.20"
+  }
 }
